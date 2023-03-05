@@ -151,4 +151,40 @@ const myArray = [
 const myArray = [["John", 23], ["cat", 2]];
 myArray.push(['dog', 3])
 // Only change code below this line
+
+
+// Setup
+const myArray = [["John", 23], ["cat", 2]];
+let removedFromMyArray = myArray.pop()
+// Only change code below this line
+
+// Setup
+const myArray = [["John", 23], ["dog", 3]];
+let removedFromMyArray = myArray.shift()
+// Only change code below this line
+
+// Setup
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+myArray.unshift(["Paul", 35])
+
+// Only change code below this line
+
+const myList = [
+    ['coke', 3], 
+    ['banana', 5],
+    ['bubble', 3],
+    ['apple', 5],
+    ['juice', 2]
+    ];
+
+function reusableFunction() {
+  console.log('Hi World');
+};
+console.log(reusableFunction())
 */
+
+function helloWorld() {
+    console.log('Hello')
+}
+helloWorld()
