@@ -37,23 +37,23 @@ completed tasks: 49/113
 - Use Bracket Notation to Find the First Character in a String
 - Understand String Immutability
 - Use Bracket Notation to Find the Nth Character in a String
-Use Bracket Notation to Find the Last Character in a String
-Use Bracket Notation to Find the Nth-to-Last Character in a String
-Word Blanks
-Store Multiple Values in one Variable using JavaScript Arrays
-Nest one Array within Another Array
-Access Array Data with Indexes
-Modify Array Data With Indexes
-Access Multi-Dimensional Arrays With Indexes
-Manipulate Arrays With push Method
-Manipulate Arrays With pop Method
-Manipulate Arrays With shift Method
-Manipulate Arrays With unshift Method
-Shopping List
-Write Reusable JavaScript with Functions
-Passing Values to Functions with Arguments
-Return a Value from a Function with Return
-Global Scope and Functions
+- Use Bracket Notation to Find the Last Character in a String
+- Use Bracket Notation to Find the Nth-to-Last Character in a String
+- Word Blanks
+- Store Multiple Values in one Variable using JavaScript Arrays
+- Nest one Array within Another Array
+- Access Array Data with Indexes
+- Modify Array Data With Indexes
+- Access Multi-Dimensional Arrays With Indexes
+- Manipulate Arrays With push Method
+- Manipulate Arrays With pop Method
+- Manipulate Arrays With shift Method
+- Manipulate Arrays With unshift Method
+- Shopping List
+- Write Reusable JavaScript with Functions
+- Passing Values to Functions with Arguments
+- Return a Value from a Function with Return
+- Global Scope and Functions
 
 
 - 07.03.2023 - Повторена и пройдена тема массивов, а также решены задания на code.mu 
