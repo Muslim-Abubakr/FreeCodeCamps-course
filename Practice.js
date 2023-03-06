@@ -248,7 +248,7 @@ function fun2() {
   }
   console.log(output);
 }
-*/
+
 
 let arr1 = ['a', 'v', 'c']
 console.log(arr1[1])
@@ -297,3 +297,79 @@ console.log(rrr.length)
 
 let arr11 = [1, 2, 3, 4, 5];
 console.log(arr11[arr11.length]);
+
+*/
+
+function getName(){
+  console.log('Muslim')
+}
+getName()
+
+function coub(num){
+  console.log(num ** 3)
+}
+coub(3)
+
+function ident(num){
+  if (num > 0) console.log('+++')
+  if (num < 0) console.log('---')
+}
+ident(-2)
+
+function eFunc(num1, num2, num3) {
+	console.log(num1 + num2 + num3);
+}
+eFunc(23, 354, 111)
+
+function param(num1, num2, num3){
+  console.log(num1 + num2 + num3)
+}
+let param1 = 1;
+let param2 = 2;
+let param3 = 3;
+
+param(param1, param2, param3)
+
+function ytr(num){
+  return num ** 3
+}
+let res = ytr(6)
+console.log(res)
+
+// Setup
+const outerWear = "T-Shirt";
+
+function myOutfit() {
+  // Only change code below this line
+  const outerWear = 'sweater';
+  // Only change code above this line
+  return outerWear;
+}
+
+myOutfit();
+
+// Setup
+let sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
+
+// Only change code below this line
+
+function addFive(){
+  sum = sum + 5
+}
+// Only change code above this line
+
+addThree();
+addFive();
+
+// Setup
+let processed = processArg(7);
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+
+// Only change code below this line
