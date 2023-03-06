@@ -249,3 +249,51 @@ function fun2() {
   console.log(output);
 }
 */
+
+let arr1 = ['a', 'v', 'c']
+console.log(arr1[1])
+
+let arr2 = [1, 2, 3]
+console.log(arr2[0] + arr2[1] + arr2[2])
+
+let arr = ['a', 'b', 'c', 'd']
+console.log(arr[0] + '+' + arr[1] + '+' + arr[2] + '+' + arr[3])
+
+console.log(arr[arr.length - 1])
+
+let arr3 = ['a', 'b', 'c'];
+arr3[0] += 3
+arr3[1] += 3
+arr3[2] += 3
+console.log(arr3)
+
+let arr4 = [1, 2, 3, 4];
+
+arr4[0]++;
+++arr[1];
+arr4[2]--;
+--arr4[3];
+
+console.log(arr4);
+
+let razArray = [1, 2, 3]
+razArray[4] = 6
+console.log(razArray)
+
+let a2rr = [];
+
+a2rr[3] = 'a';
+a2rr[8] = 'b';
+
+console.log(a2rr.length)
+
+let aww = [1, 2, 3]
+let key = 2
+console.log(aww[key])
+
+let rrr = [1, 2, 3, 4]
+delete rrr[2]
+console.log(rrr.length)
+
+let arr11 = [1, 2, 3, 4, 5];
+console.log(arr11[arr11.length]);
