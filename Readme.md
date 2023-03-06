@@ -54,3 +54,6 @@ Write Reusable JavaScript with Functions
 Passing Values to Functions with Arguments
 Return a Value from a Function with Return
 Global Scope and Functions
+
+
+- 07.03.2023 - Повторена и пройдена тема массивов, а также решены задания на code.mu 
