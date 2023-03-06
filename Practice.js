@@ -182,9 +182,70 @@ function reusableFunction() {
   console.log('Hi World');
 };
 console.log(reusableFunction())
-*/
+
 
 function helloWorld() {
     console.log('Hello')
 }
 helloWorld()
+
+function print(message){
+  console.log(message);
+}
+
+print("Hello JavaScript");
+print("Hello METANIT.COM");
+print("Function in JavaScript");
+
+function testFun(param1, param2) {
+  console.log(param1, param2);
+}
+
+testFun(1, 4)
+
+function functionWithArgs(a, b) {
+  console.log(a + b)
+}
+
+functionWithArgs (4, 7)
+
+
+function timesFive(num) {
+  return num * 5;
+}
+
+const answer = timesFive(4)
+
+function checkScore(score) {
+  return score > 100
+}
+const s1 = 10
+const s2 = 15
+const s3 = 20
+if (checkScore(s1)) console.log('игрок 1 проходит')
+if (checkScore(s2)) console.log('игрок 2 проходит')
+if (checkScore(s3)) console.log('игрок 3 проходит')
+
+console.log(checkScore(s2))
+
+// Declare the myGlobal variable below this line
+let myGlobal = 10
+
+function fun1() {
+  // Assign 5 to oopsGlobal here
+oopsGlobal = 5
+}
+
+// Only change code above this line
+
+function fun2() {
+  let output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
+*/
