@@ -55,6 +55,16 @@ completed tasks: 56/113
 - Return a Value from a Function with Return
 - Global Scope and Functions
 
+-09.03.2023:
+
+- Local Scope and Functions
+- Global vs. Local Scope in Functions
+- Understanding Undefined Value returned from a Function
+- Assignment with a Returned Value
+- Stand in Line
+- Understanding Boolean Values
+- Use Conditional Logic with If Statements
+- Comparison with the Equality Operator
 
 - 07.03.2023 - повторена и пройдена тема массивов, а также решены задания на code.mu 
 - 08.03.2023 - тема функций, решены задачи и темы на code.mu
