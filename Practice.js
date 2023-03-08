@@ -298,7 +298,7 @@ console.log(rrr.length)
 let arr11 = [1, 2, 3, 4, 5];
 console.log(arr11[arr11.length]);
 
-*/
+
 
 function getName(){
   console.log('Muslim')
@@ -373,3 +373,93 @@ function processArg(num) {
 }
 
 // Only change code below this line
+
+
+let sum = 0;
+
+function addSum(num) {
+  console.log(sum = sum + num);
+}
+
+addSum(3);
+
+function nextInLine(arr, item) {
+  // Only change code below this line
+  arr.push(item)
+  let removed = arr.shift()
+  return removed;
+  // Only change code above this line
+}
+
+// Setup
+let testArr = [1, 2, 3, 4, 5];
+
+// Display code
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
+
+
+function welcomeToBooleans() {
+  // Only change code below this line
+
+  return true; // Change this line
+
+  // Only change code above this line
+}
+
+function trueOrFalse(wasThatTrue) {
+  // Only change code below this line
+  if (wasThatTrue) {
+    return "Yes, that was true"
+  }
+  return "No, that was false"
+
+
+  // Only change code above this line
+}
+
+let test = 24
+if(test > 10) {
+  console.log('+')
+} else {
+  console.log('-')
+}
+
+let test1 = 2
+let test2 = 1
+if(test1 != test2) {
+  console.log('Yes')
+} else {
+  console.log('No')
+}
+
+let rrw = 2
+let fssa = '2'
+if(rww = fssa) {
+  console.log('Yes')
+} else {
+  console.log('No')
+}
+
+
+
+let test1 = 14;
+let test2 = 2;
+		
+if (test1 >= 10 && test1 <= 20) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+*/
+
+
+let num = 3;
+		
+if (num == 9 || (num > 10 && num < 20) || (num > 20 && num < 30)) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
