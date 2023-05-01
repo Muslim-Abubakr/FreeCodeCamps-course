@@ -452,7 +452,7 @@ if (test1 >= 10 && test1 <= 20) {
 } else {
 	console.log('---');
 }
-*/
+
 
 
 let num = 3;
@@ -463,3 +463,17 @@ if (num == 9 || (num > 10 && num < 20) || (num > 20 && num < 30)) {
 	console.log('---');
 }
 
+  // Setup
+  function testEqual(val) {
+    if (val == 12) { // Change this line
+      return "Equal";
+    }
+    return "Not Equal";
+  }
+
+  testEqual(10);
+
+*/
+
+let str = `abc`
+console.log (str)
