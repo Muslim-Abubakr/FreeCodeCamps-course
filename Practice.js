@@ -477,3 +477,4 @@ if (num == 9 || (num > 10 && num < 20) || (num > 20 && num < 30)) {
 
 let str = `abc`
 console.log (str)
+
