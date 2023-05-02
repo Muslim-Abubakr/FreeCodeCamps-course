@@ -473,8 +473,61 @@ if (num == 9 || (num > 10 && num < 20) || (num > 20 && num < 30)) {
 
   testEqual(10);
 
-*/
+
 
 let str = `abc`
 console.log (str)
+
+*/
+
+console.log(typeof undefined)
+
+function testGreaterOrEqual(val) {
+  if (val >=) {  // Change this line
+    return "20 or Over";
+  }
+
+  if (val >=) {  // Change this line
+    return "10 or Over";
+  }
+
+  return "Less than 10";
+}
+
+testGreaterOrEqual(10);
+
+
+
+function testElse(val) {
+  let result = "";
+  // Only change code below this line
+
+  if (val > 5) {
+    result = "Bigger than 5";
+  }
+
+  else {
+    result = "5 or Smaller";
+  }
+
+  // Only change code above this line
+  return result;
+}
+
+testElse(4);
+
+function testElseIf(val) {
+  if (val > 10) {
+    return "Greater than 10";
+  }
+
+  else if (val < 5) {
+    return "Smaller than 5";
+  }
+  else {
+  return "Between 5 and 10";
+  }
+}
+
+testElseIf(7);
 
