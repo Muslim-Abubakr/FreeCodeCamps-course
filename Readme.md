@@ -70,3 +70,14 @@ completed tasks: 56/113
 - 08.03.2023 - тема функций, решены задачи и темы на code.mu
 - 09.03.2023 - тема условий, решены задачи и темы на code.mu
 - 30.05.2023 - повтор пройденных тем
+
+  02.05.23:
+
+- Comparison with the Strict Equality Operator
+- Practice comparing different values
+- Comparison with the Inequality Operator
+- Comparison with the Strict Inequality Operator
+- Comparison with the Greater Than Operator
+- Comparison with the Greater Than Or Equal To Operator
+- Comparison with the Less Than Operator
+- Comparison with the Less Than Or Equal To Operator
