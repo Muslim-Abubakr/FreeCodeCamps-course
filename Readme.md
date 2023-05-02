@@ -71,7 +71,7 @@ completed tasks: 56/113
 - 09.03.2023 - тема условий, решены задачи и темы на code.mu
 - 30.05.2023 - повтор пройденных тем
 
-  02.05.23:
+-02.05.23:
 
 - Comparison with the Strict Equality Operator
 - Practice comparing different values
