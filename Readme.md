@@ -71,7 +71,7 @@ completed tasks: 82/113
 - 09.03.2023 - тема условий, решены задачи и темы на code.mu
 - 30.05.2023 - повтор пройденных тем
 
--02.05.23:
+-02.05.2023:
 
 - Comparison with the Strict Equality Operator
 - Practice comparing different values
@@ -81,3 +81,15 @@ completed tasks: 82/113
 - Comparison with the Greater Than Or Equal To Operator
 - Comparison with the Less Than Operator
 - Comparison with the Less Than Or Equal To Operator
+- Introducing Else Statements
+- Introducing Else If Statements
+- Logical Order in If Else Statements
+- Chaining If Else Statements
+- Golf Code
+- Selecting from Many Options with Switch Statements
+- Adding a Default Option in Switch Statements
+- Multiple Identical Options in Switch Statements
+- Replacing If Else Chains with Switch
+- Returning Boolean Values from Functions
+- Return Early Pattern for Functions
+- Counting Cards
