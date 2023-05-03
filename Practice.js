@@ -478,7 +478,7 @@ if (num == 9 || (num > 10 && num < 20) || (num > 20 && num < 30)) {
 let str = `abc`
 console.log (str)
 
-*/
+
 
 console.log(typeof undefined)
 
@@ -550,3 +550,103 @@ if(num < 5){
 }
 
 testSize(7);
+
+const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+
+function golfScore(par, strokes) {
+  // Only change code below this line
+ if (strokes == 1) {
+    return names[0];
+  } else if (strokes <= par - 2) {
+    return names[1];
+  } else if (strokes === par - 1) {
+    return names[2];
+  } else if (strokes === par) {
+    return names[3];
+  } else if (strokes === par + 1) {
+    return names[4];
+  } else if (strokes === par + 2) {
+    return names[5];
+  } else {
+    return names[6];
+  }
+
+  return "Change Me";
+  // Only change code above this line
+}
+
+golfScore(5, 4);
+
+
+
+
+
+if (lang == 'ru') {
+	console.log('рус');
+} else if (lang == 'en') {
+	console.log('анг');
+} else if (lang == 'de') {
+	console.log('нем');
+} else {
+	console.log('язык не поддерживается');
+}
+
+let lang = 'eng';
+switch (lang) {
+  case 'ru':
+    console.log('рус')
+  break
+  case 'eng':
+    console.log('анг')
+}
+
+function caseInSwitch(val) {
+  let answer = "";
+  // Only change code below this line
+  switch (val) {
+    case 1:
+      return 'alpha'
+      break
+    case 2:
+      return 'beta'
+      break
+    case 3:
+      return 'gamma'
+      break
+    case 4:
+      return 'delta'
+      break
+}
+
+  // Only change code above this line
+  return answer;
+}
+
+caseInSwitch();
+
+function sequentialSizes(val) {
+  let answer = "";
+  // Only change code below this line
+  switch (val) {
+    case 1:
+    case 2:
+    case 3:
+      answer = 'Low'
+      break
+    case 4:
+    case 5:
+    case 6:
+      answer = 'Mid'
+      break
+    case 7:
+    case 8:
+    case 9:
+      answer = 'High'  
+  }
+
+
+  // Only change code above this line
+  return answer;
+}
+
+sequentialSizes(1);*/
