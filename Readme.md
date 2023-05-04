@@ -93,3 +93,7 @@ completed tasks: 82/113
 - Returning Boolean Values from Functions
 - Return Early Pattern for Functions
 - Counting Cards
+
+-04.05.2023:
+
+Пройдена тема объектов и решены задачи на code.mu
