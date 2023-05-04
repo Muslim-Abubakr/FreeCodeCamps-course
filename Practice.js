@@ -674,7 +674,7 @@ let obj = {
 
 console.log(obj.c);
 
-*/
+
 
 let obj = {a: 1, b: 2, c: 3};
 obj['a'] = 'Error'
@@ -684,3 +684,48 @@ console.log(obj)
 
 let object = {x: 1, y: 2, z: 3};
 console.log(object.x, object.y ** 2, object.z **2)
+
+let obj = {};
+
+obj.a = 1
+
+console.log(obj)
+
+
+
+
+let object = {x: 1, y: 2, z: 3};
+
+let key = Object.keys(object)
+console.log(key)
+
+
+let obj = {a: 1, b: 2, c: 3};
+let keys = Object.keys(obj)
+console.log(keys.length)
+
+let obj = {a: 1, b: 2, c:3}
+let key = 'b'
+console.log(obj[key])
+
+
+let key = 'x';
+
+let obj = {
+	[key]: 1,
+	y: 2,
+	z: 3
+};
+
+console.log(obj[key])
+
+let object = {x: 1, y: 2, z: 3};
+
+console.log('x' in object);
+console.log('w' in object);
+*/
+let obj = {x: 1, y: 2, z: 3};
+console.log( typeof obj['x'] );
+
+let arr = [1, 2, 3];
+console.log( typeof arr[0] );
