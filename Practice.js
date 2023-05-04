@@ -621,7 +621,7 @@ function caseInSwitch(val) {
   // Only change code above this line
   return answer;
 }
-*/
+
 caseInSwitch();
 
 function sequentialSizes(val) {
@@ -649,4 +649,8 @@ function sequentialSizes(val) {
   return answer;
 }
 
-sequentialSizes(1);
+sequentialSizes(1);*/
+
+let obj = {1: 'a', 2: 'b', 3: 'c'};
+	
+console.log(obj[3]); // выведет 'a'
