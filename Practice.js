@@ -649,8 +649,38 @@ function sequentialSizes(val) {
   return answer;
 }
 
-sequentialSizes(1);*/
+sequentialSizes(1);
 
-let obj = {1: 'a', 2: 'b', 3: 'c'};
-	
-console.log(obj[3]); // выведет 'a'
+let obj = {1: 'monday', 2: 'tuesday', 3: 'thirsday', 4: 'wednesday', 5: 'Friday', 6: 'Saturday', 7: 'Sunday'}
+console.log(obj); // выведет 'a'
+
+
+let object = {name: 'Muslim', surname: 'Abubakriger', patronymic: 'Musayi'}
+console.log(object['name'])
+
+
+
+let date = {year: 2023, month: 05, day: 04}
+console.log(date.year, date.month, date.day) 
+
+let obj = {
+	'1a': 1,
+	'b2': 2,
+	с: '44',
+	'd 4': 4,
+	'e5': 5
+};
+
+
+console.log(obj.c);
+
+*/
+
+let obj = {a: 1, b: 2, c: 3};
+obj['a'] = 'Error'
+obj.b = 'Error'
+console.log(obj)
+
+
+let object = {x: 1, y: 2, z: 3};
+console.log(object.x, object.y ** 2, object.z **2)
