@@ -723,9 +723,51 @@ let object = {x: 1, y: 2, z: 3};
 
 console.log('x' in object);
 console.log('w' in object);
-*/
+
 let obj = {x: 1, y: 2, z: 3};
 console.log( typeof obj['x'] );
 
 let arr = [1, 2, 3];
 console.log( typeof arr[0] );
+
+// Setup
+const testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
+
+// Only change code below this line
+const hatValue = testObj.hat;      // Change this line
+const shirtValue = testObj.shirt;    // Change this line
+
+// Setup
+const testObj = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water"
+};
+
+// Only change code below this line
+const entreeValue = testObj['an entree'];   // Change this line
+const drinkValue = testObj['the drink'];    // Change this line
+
+const ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
+};
+
+ourDog.name = 'Happy'
+console.log(ourDog.name)
+
+*/
+
+function checkObj(obj, checkProp) {
+  if (obj.hasOwnProperty(checkProp)) {
+    return obj[checkProp];
+  } else {
+    return "Not Found";
+  }
+}
