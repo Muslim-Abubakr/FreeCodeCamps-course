@@ -762,7 +762,7 @@ const ourDog = {
 ourDog.name = 'Happy'
 console.log(ourDog.name)
 
-*/
+
 
 function checkObj(obj, checkProp) {
   if (obj.hasOwnProperty(checkProp)) {
@@ -774,3 +774,26 @@ function checkObj(obj, checkProp) {
 
 let obj = {x: 1, y: 2, z: 3};
 console.log(Object.keys(obj).length);
+
+  */
+
+const myPlants = [
+  {
+    type: "flowers",
+    list: [
+      "rose",
+      "tulip",
+      "dandelion"
+    ]
+  },
+  {
+    type: "trees",
+    list: [
+      "fir",
+      "pine",
+      "birch"
+    ]
+  }
+];
+
+const secondTree = myPlants[1].list[1];
