@@ -775,8 +775,7 @@ function checkObj(obj, checkProp) {
 let obj = {x: 1, y: 2, z: 3};
 console.log(Object.keys(obj).length);
 
-  */
-
+ 
 const myPlants = [
   {
     type: "flowers",
@@ -833,3 +832,38 @@ function updateRecords(records, id, prop, value) {
   }
   return records;
 }
+ 
+let age = 15
+let adult = age >= 18 ? true:false
+console.log(adult)
+
+
+let num = -2;
+let res;
+
+res = num >= 0 ? '1':'2'
+console.log(res);
+
+
+let num1 = '1';
+let num2 = '2';
+
+if (num1 + num2 == 3) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+console.log('1' + 2)
+
+// Setup
+// Setup
+const myArray = [];
+let i = 5
+while (i >= 0) {
+  myArray.push(i)
+  --i
+}
+
+// Only change code below this line
+*/
