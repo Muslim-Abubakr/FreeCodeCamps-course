@@ -871,3 +871,10 @@ while (i >= 0) {
 for(let num = 0; num < 5; num++) {
   console.log(num)
 }
+
+// Setup
+const myArray = [];
+for (let i = 1; i < 6; i++) {
+  myArray.push(i)
+}
+// Only change code below this line
