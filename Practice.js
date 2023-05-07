@@ -867,3 +867,7 @@ while (i >= 0) {
 
 // Only change code below this line
 */
+
+for(let num = 0; num < 5; num++) {
+  console.log(num)
+}
