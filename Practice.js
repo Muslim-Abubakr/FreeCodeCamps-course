@@ -923,3 +923,12 @@ function sum(arr, n) {
   }
   // Only change code above this line
 }
+
+unction randomFraction() {
+
+  // Only change code below this line
+
+  return Math.random();
+
+  // Only change code above this line
+}
