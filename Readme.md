@@ -1,6 +1,6 @@
 Practice assignments from the course
 
-completed tasks: 103/113
+Completed tasks: 113/113 +
 
 - Comment Your JavaScript Code
 - Declare JavaScript Variables
