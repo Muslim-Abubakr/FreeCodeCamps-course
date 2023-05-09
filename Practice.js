@@ -924,11 +924,21 @@ function sum(arr, n) {
   // Only change code above this line
 }
 
-unction randomFraction() {
+function randomFraction() {
 
   // Only change code below this line
 
   return Math.random();
 
   // Only change code above this line
+}
+
+function checkScope() {
+  var i = 'function scope';
+  if (true) {
+    i = 'block scope';
+    console.log('Block scope i is: ', i);
+  }
+  console.log('Function scope i is: ', i);
+  return i;
 }
