@@ -884,7 +884,7 @@ const myArray = [];
 for (let i = 1; i < 10; i += 2) {
   myArray.push(i)
 }
-*/
+
 // Only change code below this line
 const myArr = [2, 3, 4, 5, 6];
 let total = 0
@@ -941,4 +941,16 @@ function checkScope() {
   }
   console.log('Function scope i is: ', i);
   return i;
+}*/
+
+const s = [5, 7, 2];
+function editInPlace() {
+   // Only change code below this line
+  s[0] = 2
+  s[1] = 5
+  s[2] = 7
+  // Using s = [2, 5, 7] would be invalid
+
+  // Only change code above this line
 }
+editInPlace();
