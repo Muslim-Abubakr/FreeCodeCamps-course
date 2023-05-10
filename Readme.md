@@ -111,3 +111,6 @@ Completed tasks: 113/113 +
 - Testing Objects for Properties
 - Manipulating Complex Objects
 - Accessing Nested Objects
+
+
+ES6 7/29
