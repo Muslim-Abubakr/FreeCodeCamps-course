@@ -941,7 +941,7 @@ function checkScope() {
   }
   console.log('Function scope i is: ', i);
   return i;
-}*/
+}
 
 const s = [5, 7, 2];
 function editInPlace() {
@@ -972,3 +972,24 @@ const sum = (...args) => {
   return total;
 }
 
+*/
+
+let drawCats = function(howMany) {
+  for(let i = 0; i < howMany; i++) {
+    console.log('=^.^=')
+  }
+}
+
+drawCats (2)
+
+function bmi(weight, height) {
+  if(weight / height ** 2 <= 18.5) {
+    return 'Underweight'
+  } else if (weight / height ** 2 <= 25.0) {
+    return 'Normal'
+  } else if (weight / height ** 2 <= 30.0) {
+    return 'Overweight'
+  } else if (weight / height ** 2 > 30) {
+    return 'Obese'
+  }
+}
