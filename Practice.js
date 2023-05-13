@@ -972,7 +972,7 @@ const sum = (...args) => {
   return total;
 }
 
-*/
+
 
 let drawCats = function(howMany) {
   for(let i = 0; i < howMany; i++) {
@@ -992,4 +992,10 @@ function bmi(weight, height) {
   } else if (weight / height ** 2 > 30) {
     return 'Obese'
   }
+}*/
+
+if(2 == '2') {
+  console.log('true')
+} else {
+  console.log('false')
 }
