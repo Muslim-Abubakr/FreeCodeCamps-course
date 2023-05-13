@@ -992,10 +992,25 @@ function bmi(weight, height) {
   } else if (weight / height ** 2 > 30) {
     return 'Obese'
   }
-}*/
-
+}
 if(2 == '2') {
   console.log('true')
 } else {
   console.log('false')
 }
+
+let age = 12
+let accompained = true
+
+if(age >= 12 && accompained == true) {
+  console.log(true)
+} else {
+  console.log(false)
+}
+
+let animals = ["Белый медведь", "Мартышка","Кот", "Пес", "Лама"]
+let arr = [1, 3, 5]
+let sumArr = animals.concat(arr)
+console.log(sumArr.join(' - '))*/
+
+console.log(Math.random())
