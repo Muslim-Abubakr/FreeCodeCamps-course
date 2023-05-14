@@ -1013,4 +1013,9 @@ let arr = [1, 3, 5]
 let sumArr = animals.concat(arr)
 console.log(sumArr.join(' - '))*/
 
-console.log(Math.random())
+console.log(Math.floor(Math.random() * 10))
+
+const mango = (quantity, price) => {
+  const multiple = Math.floor(quantity / 3);
+  return price * (quantity - multiple);
+}
