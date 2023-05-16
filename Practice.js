@@ -1019,3 +1019,14 @@ const mango = (quantity, price) => {
   const multiple = Math.floor(quantity / 3);
   return price * (quantity - multiple);
 }
+
+
+ for(let i = 3; i < 10000; i *= 3) {
+    console.log(i)
+  }
+  
+  let i = 3
+  while(i < 10000) {
+    console.log(i)
+    i *= 3
+  }
