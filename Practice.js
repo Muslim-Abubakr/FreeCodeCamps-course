@@ -1030,3 +1030,10 @@ const mango = (quantity, price) => {
     console.log(i)
     i *= 3
   }
+
+  let abc = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя"
+  let rs = ''
+  while(rs.length < 7) {
+    rs += abc[Math.floor(Math.random() * abc.length)]
+  }
+  console.log(rs)
