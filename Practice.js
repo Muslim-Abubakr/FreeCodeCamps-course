@@ -1082,4 +1082,16 @@ while(remainLetters > 0 && popitki < 5) {
       break;
   } else if(guess.length !== 1) {
       alert('Пожалуйста введите только одну букву')
-  
+    } else {
+      for(let j = 0; j < word.length; j++) {
+          if(word[j] === guess.toLowerCase()) {
+              answerArray[j] = guess.toLowerCase()
+              remainLetters--
+              popitki++
+              remainLetters[j] == '_'
+          }
+      }
+  }
+}
+alert(answerArray.join(" "));
+alert("Отлично! Было загадано слово " + word);
