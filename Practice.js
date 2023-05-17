@@ -1059,3 +1059,21 @@ for(let i = 0; i < input.length; i++) {
 
 
 console.log(output)
+
+
+let words = [
+  'программа'
+  
+]
+
+let word = words[Math.floor(Math.random() * words.length)]
+let answerArray = []
+
+for(let i = 0; i < word.length; i++) {
+  answerArray[i] = '_'
+}
+
+let remainLetters = word.length
+let popitki = 0
+
+
