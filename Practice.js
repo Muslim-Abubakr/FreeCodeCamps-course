@@ -1076,4 +1076,10 @@ for(let i = 0; i < word.length; i++) {
 let remainLetters = word.length
 let popitki = 0
 
-
+while(remainLetters > 0 && popitki < 5) {
+  let guess = prompt('Выберите букву или нажмите отмена для выхода из игры')
+  if(guess == null) {
+      break;
+  } else if(guess.length !== 1) {
+      alert('Пожалуйста введите только одну букву')
+  
