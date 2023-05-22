@@ -1152,3 +1152,20 @@ function abbrevName(name){
   return first[0].toUpperCase() + '.' + last[0].toUpperCase()
 
 }
+
+let ask = prompt('Назовите ваш логи')
+if(ask == 'Admin') {
+  
+  let ask2 = prompt('Password?')
+  if(ask2 == '123') {
+    alert('Hi')
+  } else if(ask2 == undefined) {
+    alert(undefined)
+  } else {
+    alert('wrong password')
+  }
+} else if(ask == undefined) {
+  alert('Cancel')
+} else {
+  alert('I dont know you')
+}
