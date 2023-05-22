@@ -1146,3 +1146,9 @@ console.log(areArraySame([4, 2, 3], [4, 2, 3]));
 function check(a, x) {
   return a.indexOf(x) > -1 ? true : false
 }
+
+function abbrevName(name){
+  let [first, last] = name.split(' ')
+  return first[0].toUpperCase() + '.' + last[0].toUpperCase()
+
+}
