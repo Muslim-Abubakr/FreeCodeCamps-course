@@ -1011,7 +1011,7 @@ if(age >= 12 && accompained == true) {
 let animals = ["Белый медведь", "Мартышка","Кот", "Пес", "Лама"]
 let arr = [1, 3, 5]
 let sumArr = animals.concat(arr)
-console.log(sumArr.join(' - '))*/
+console.log(sumArr.join(' - '))
 
 console.log(Math.floor(Math.random() * 10))
 
@@ -1095,3 +1095,54 @@ while(remainLetters > 0 && popitki < 5) {
 }
 alert(answerArray.join(" "));
 alert("Отлично! Было загадано слово " + word);
+
+*/
+
+
+
+function generate() {
+  let randomBodyParts = ["глаз", "нос", "череп"];
+  let randomAdjectives = ["вонючая", "унылая", "дурацкая"];
+  let randomWords = ["муха", "выдра", "дубина", "мартышка", "крыса"];
+
+  function randomString(name) {
+    return name[Math.floor(Math.random() * name.length)]
+    
+  }
+
+  let rS = 'У тебя ' + randomString(randomBodyParts) + ' словно ' + randomString(randomAdjectives) + ' '
+  + randomString(randomWords)
+  console.log(rS) 
+  return rS
+}
+
+generate()
+
+
+function add(arg1, arg2) {
+  return arg1 + arg2
+}
+
+function multiply(num1, num2) {
+  return num1 * num2
+}
+
+console.log(add(multiply(36325, 9824), 777))
+
+function areArraySame(arr1, arr2) {
+  for(let i = 0; i < arr1.length; i++) {
+    if(arr1[i] == arr2[i]) {
+      return true
+    }
+    else {
+      return false
+    }
+  }
+
+}
+
+console.log(areArraySame([4, 2, 3], [4, 2, 3]));
+
+function check(a, x) {
+  return a.indexOf(x) > -1 ? true : false
+}
