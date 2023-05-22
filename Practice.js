@@ -1169,3 +1169,15 @@ if(ask == 'Admin') {
 } else {
   alert('I dont know you')
 }
+
+ function ask(question, yes, no) {
+  if(confirm(question)) yes()
+  else no()
+}
+
+ask(
+  'Вы согласны?',
+  function() {alert('вы согласны')},
+  function() {alert('вы отменили действие')}
+)
+
