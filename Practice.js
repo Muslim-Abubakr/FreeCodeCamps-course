@@ -1334,3 +1334,10 @@ temp = thermos.temperature; // 26 in Celsius
     <!-- Only change code above this line -->
   </body>
 </html>
+
+function spEng(sentence){
+  let x = sentence.toLowerCase();
+    if(x.includes('english')) {
+      return true
+    } return false
+  }
