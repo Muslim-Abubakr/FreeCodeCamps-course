@@ -1345,3 +1345,13 @@ function spEng(sentence){
   function oddCount(n){
     return Math.floor(n / 2) // your code here
   }
+
+  const uppercaseString = (string) => {
+  return string.toUpperCase();
+}
+
+const lowercaseString = (string) => {
+  return string.toLowerCase()
+}
+
+export {uppercaseString, lowercaseString}
