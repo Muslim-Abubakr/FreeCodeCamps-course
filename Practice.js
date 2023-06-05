@@ -1367,3 +1367,5 @@ import * as stringFunctions from './string_functions.js'
 
 stringFunctions.uppercaseString("hello");
 stringFunctions.lowercaseString("WORLD!");
+
+const makeServerRequest = new Promise((resolve, reject) => {})
