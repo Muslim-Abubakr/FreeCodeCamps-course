@@ -1381,3 +1381,16 @@ const makeServerRequest = new Promise((resolve, reject) => {
   }
 });
 
+const otherAngle = (a, b) => 180 - (a + b)
+
+function otherAngle(a, b) {
+  return 180-(a+b);
+}
+
+function multiTable(number) {
+  let mltTable = ''
+  for(let i = 1; i < 11; i++) {
+    mltTable += `${i} * ${number} = ${i * number}\n`
+  }
+  return mltTable.slice(0, -1)
+}
