@@ -1395,6 +1395,7 @@ function multiTable(number) {
   return mltTable.slice(0, -1)
 }
 
+
 let myString = "Hello, World!";
 let myRegex = /Hello/;
 let result = myRegex.test(myString); // Change this line
