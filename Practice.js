@@ -1403,3 +1403,12 @@ let result = myRegex.test(myString); // Change this line
 let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
 let waldoRegex = /Waldo/; // Change this line
 let result = waldoRegex.test(waldoIsHiding);
+
+let el1 = document.querySelector('#elem')
+let el2 = document.querySelector('#elem2')
+let inpt = document.querySelector('#inpt')
+let el3 = document.querySelector('#elem3')
+
+inpt.addEventListener('click', function func() {
+  console.log(el3.textContent = Number(el1.textContent) + Number(el2.textContent))
+})
