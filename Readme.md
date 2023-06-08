@@ -113,4 +113,4 @@ Completed tasks: 113/113 +
 - Accessing Nested Objects
 
 
-ES6 7/29
+ES6 29/29 - completed
