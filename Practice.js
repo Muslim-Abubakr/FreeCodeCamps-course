@@ -1412,3 +1412,8 @@ let el3 = document.querySelector('#elem3')
 inpt.addEventListener('click', function func() {
   console.log(el3.textContent = Number(el1.textContent) + Number(el2.textContent))
 })
+
+const myName = () => {
+  console.log('Muslim')
+} 
+export default myName
