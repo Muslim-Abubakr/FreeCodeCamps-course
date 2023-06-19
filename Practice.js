@@ -1417,3 +1417,8 @@ const myName = () => {
   console.log('Muslim')
 } 
 export default myName
+
+import {
+  one as oneRenamed,
+  two
+} from './moduleOne.js'
