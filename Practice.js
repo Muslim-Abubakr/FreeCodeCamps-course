@@ -1439,3 +1439,7 @@ let text = fs.readFileSync('text.txt', 'utf8')
 let secondText = fs.readFileSync('text2.txt', 'utf8')
 let sum = Number(text) + Number(secondText)
 console.log(sum)
+
+for (let i = 0; i < keys.length; i++) {
+    fs.writeFileSync(keys[i], obj[keys[i]])
+}
