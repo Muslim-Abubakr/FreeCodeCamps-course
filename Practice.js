@@ -1422,3 +1422,10 @@ import {
   one as oneRenamed,
   two
 } from './moduleOne.js'
+
+import _ from "lodash"; 
+
+const arrCom = [1, 3, '', null, true, false, undefined]
+
+console.log(_.compact([0, 1, false, 2, '', 3]));
+console.log(_.compact(arrCom))
