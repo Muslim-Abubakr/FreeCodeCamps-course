@@ -1429,3 +1429,13 @@ const arrCom = [1, 3, '', null, true, false, undefined]
 
 console.log(_.compact([0, 1, false, 2, '', 3]));
 console.log(_.compact(arrCom))
+
+import _ from "lodash"; 
+import fs from 'fs'
+
+const arrCom = [1, 3, '', null, true, false, undefined]
+
+let text = fs.readFileSync('text.txt', 'utf8')
+let secondText = fs.readFileSync('text2.txt', 'utf8')
+let sum = Number(text) + Number(secondText)
+console.log(sum)
