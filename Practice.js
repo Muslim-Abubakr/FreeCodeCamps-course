@@ -1443,3 +1443,8 @@ console.log(sum)
 for (let i = 0; i < keys.length; i++) {
     fs.writeFileSync(keys[i], obj[keys[i]])
 }
+
+Const personOne = {
+  Name: 'Bob',
+  Age: 21
+}
