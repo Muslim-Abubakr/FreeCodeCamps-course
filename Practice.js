@@ -1448,3 +1448,12 @@ Const personOne = {
   Name: 'Bob',
   Age: 21
 }
+Function increasePersonAge(person) {
+  Const updatePerson = Object.assign({}, person)
+  updatedPerson.age += 1
+  Return updatedPerson
+}
+
+Const updatedPersonOne = increasePersonAge(personOne)
+Console.log(personOne.age) // 21
+Console.log(updatedPersonOne.age) // 22
