@@ -1457,3 +1457,10 @@ Function increasePersonAge(person) {
 Const updatedPersonOne = increasePersonAge(personOne)
 Console.log(personOne.age) // 21
 Console.log(updatedPersonOne.age) // 22
+
+
+	sayHi("Вася"); // Привет, Вася
+	
+	function sayHi(name) {
+	  alert( `Привет, ${name}` );
+	}
