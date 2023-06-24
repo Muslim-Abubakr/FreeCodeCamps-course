@@ -1479,7 +1479,7 @@ Console.log(updatedPersonOne.age) // 22
   
   testGreaterOrEqual(10);
 
-  */
+ 
 
 const prices = [19.99, 12, 25, 3.50];
 
@@ -1490,4 +1490,10 @@ for (i = 0; i < prices.length; i++) {
 }
 
 console.log(newPrices)
+ */
 
+const prices = [19.99, 12, 25, 3.50];
+
+let newPrices = prices.map(price => price * 1.06)
+
+console.log(newPrices)
