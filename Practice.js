@@ -1096,7 +1096,7 @@ while(remainLetters > 0 && popitki < 5) {
 alert(answerArray.join(" "));
 alert("Отлично! Было загадано слово " + word);
 
-*/
+
 
 
 
@@ -1478,3 +1478,16 @@ Console.log(updatedPersonOne.age) // 22
   }
   
   testGreaterOrEqual(10);
+
+  */
+
+const prices = [19.99, 12, 25, 3.50];
+
+let newPrices = []
+
+for (i = 0; i < prices.length; i++) {
+  newPrices.push(prices[i] * 1.06)
+}
+
+console.log(newPrices)
+
