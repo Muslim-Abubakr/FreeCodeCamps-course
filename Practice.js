@@ -1525,3 +1525,9 @@ function sequentialSizes(val) {
 
 sequentialSizes(1);
 
+let obj = {1: 'monday', 2: 'tuesday', 3: 'thirsday', 4: 'wednesday', 5: 'Friday', 6: 'Saturday', 7: 'Sunday'}
+console.log(obj); // выведет 'a'
+
+
+let object = {name: 'Muslim', surname: 'Abubakriger', patronymic: 'Musayi'}
+console.log(object['name'])
