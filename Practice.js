@@ -1531,3 +1531,7 @@ console.log(obj); // выведет 'a'
 
 let object = {name: 'Muslim', surname: 'Abubakriger', patronymic: 'Musayi'}
 console.log(object['name'])
+
+	const numbers = [1, 3, 4, 7, 9, 10];
+	const firstEvenNumber = numbers.find(number => number % 2 === 0);
+	console.log(firstEvenNumber); // 4
